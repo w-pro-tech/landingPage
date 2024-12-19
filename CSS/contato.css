@@ -1,0 +1,88 @@
+    /* contato.css */
+
+
+
+body {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.contact-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color:rgb(107, 164, 244); 
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+textarea {
+    resize: none;
+}
+textarea{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+button{
+    background-color: rgb(107, 164, 244);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    box-shadow: 0 0 10px rgb(107, 164, 244);
+}
