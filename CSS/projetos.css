@@ -19,7 +19,7 @@
 }
 
 .project-img img {
-    width: ; /* Faz a imagem ocupar toda a largura */
+    width: 125px;
     height: auto; /* Mantém a proporção original */
     border-radius: 5px 5px 0 0; /* Arredonda as bordas superiores */
 }
