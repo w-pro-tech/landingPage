@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .projetos {
     width: 1000px;
     display: grid;
@@ -10,23 +15,38 @@
 .project-card {
     width: 250x;
     height: 200px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Esconde as bordas arredondadas da imagem */
 }
 
-.project-img img {
-    width: 125px;
-    height: auto; /* Mantém a proporção original */
-    border-radius: 5px 5px 0 0; /* Arredonda as bordas superiores */
+.project-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.project-description{
+    padding-top: 10px;
+}
+
+.project-description h1{
+    font-size: 1.5rem;
+    color: #333;
 }
 
 .project-text {
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px;
+    font-size: 14px;
     color: #333;
-    text-align: center;
+    text-align: left;
+    padding-top: 20px;
 }
